@@ -66,6 +66,9 @@ nvim_lsp.ts_ls.setup{
   capabilities = capabilities,
 }
 
+
+nvim_lsp.bashls.setup{}
+
 -- Diagnostic symbols in the sign column (gutter)
 local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
 for type, icon in pairs(signs) do
